@@ -13,7 +13,7 @@ Setup New Cluster seçeneğini seçin.
 
 - Admin kullanıcı adına: appcentdemo
 
-- Şifre kısımlarına : appcentdemo# yazın ve ilerleyin.
+- Şifre kısımlarına : appcentdemo yazın ve ilerleyin.
 
 - Şartları kabul edin ve finish with default seçeneğini ile kurulumu tamamlayın.
 
@@ -28,11 +28,11 @@ Setup New Cluster seçeneğini seçin.
 
 
 
-* CREATE PRIMARY INDEX `todo_primary` ON `todo`
-* CREATE INDEX `idx_ts_type` ON `todo`(`type`);
-* CREATE INDEX `idx_ts_id` ON `todo`(`id`);
-* CREATE INDEX `idx_ts_email` ON `todo`(`email`);
-* CREATE INDEX `idx_ts_userid` ON `todo`(`userid`);
+* CREATE PRIMARY INDEX "todo_primary" ON "todo"
+* CREATE INDEX "idx_ts_type" ON "todo"("type");
+* CREATE INDEX "idx_ts_id" ON "todo"("id");
+* CREATE INDEX "idx_ts_email" ON "todo"("email");
+* CREATE INDEX "idx_ts_userid" ON "todo"("userid");
 
 
 Database işlemlerini yaptıktan sonra http://localhost:5001 adresine gidin ve Angular uygulamasında gelen ekrandan kayıt olduktan sonra giriş yapın.
