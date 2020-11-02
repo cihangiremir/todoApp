@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebUI</name>
+    </assembly>
+    <members>
+        <member name="M:WebUI.Controllers.AuthsController.Login(Entities.Dto.AppUser.AppUserLoginInput)">
+             <summary>
+             Login then create to token.
+             </summary>
+             /// <remarks>
+             Sample request:
+            
+                 POST /login
+                 {
+                    "email": test@appcent.com,
+                    "password": appcentdemo
+                 }
+            
+             </remarks>
+             <param name="loginInput"></param>
+             <returns></returns>
+        </member>
+        <member name="M:WebUI.Controllers.AuthsController.Register(Entities.Dto.AppUser.AppUserRegisterInput)">
+            <summary>
+            Register
+            </summary>
+            <param name="registerInput"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
